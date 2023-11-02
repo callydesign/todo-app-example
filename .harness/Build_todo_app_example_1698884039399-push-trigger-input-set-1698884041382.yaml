@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_todo_app_example_1698884039399-push-trigger-input-set
+  identifier: Build_todo_app_example_1698884039399pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_todo_app_example_1698884039399
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
